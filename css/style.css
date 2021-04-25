@@ -85,15 +85,16 @@ font-family: sans-serif;
 
 
 .prima-tab{
+    
    margin-top:10px;
     /* height: 250px; */
-    width: 340px;
-    text-align: center;
+    width: 220px;
     margin-right: 10px;
-    
 }
 
+
 .left-img{
+
    border: 1px solid rgb(51, 49, 49);
    border-radius: 10px;
    width: 220px; 
@@ -102,11 +103,11 @@ font-family: sans-serif;
 
 .seconda-tab{
     
-    margin-top:10px;
+   margin-top:10px;
     /* height: 250px; */
-    width: 460px;
-    text-align: center;
-    margin-right:10px;
+   width: 740px;
+   margin-right:10px;
+   overflow: hidden;
     
 }
 
@@ -114,8 +115,9 @@ font-family: sans-serif;
     
     border: 1px solid rgb(51, 49, 49);
    border-radius: 10px;
-    width: 400px; 
+   width: 100%;
     height:200px;
+    object-fit: cover;
 
 }
 
@@ -123,18 +125,16 @@ font-family: sans-serif;
     
     margin-top:10px;
     /* height: 250px; */
-    width: 360px;
-    text-align: center;
+    width: 220px;
     
 }
 
 .right-img{
     border: 1px solid rgb(51, 49, 49);
    border-radius: 10px;
-    
     width: 220px; 
     height: 200px;
-
+    object-fit: cover;
 }
 
 footer {
